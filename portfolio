@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio Of Swayam Das</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Quarknomer</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Swayam Das</div>
+          <div class="text-three">Skills In Data Analysis</div>
+        <div class="button">
+          <button>Let's Dive In</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="images/about.jpg" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Interest In Data Analysis & Data Visualization</div>
+            <p>
+              I'm captivated by the world of data analysis and visualization. The power to extract meaningful insights from data is what fuels my passion, and in an era of unprecedented data availability, it's more crucial than ever. With extensive experience and proficiency in Python, Java, HTML - CSS and Tableau, I'm committed to unlocking the potential of data. I'm open to new opportunities as a data analyst, eager to contribute to projects that harness data's transformative power. Let's connect and explore how we can turn data into informed decisions and innovation.
+            </p>
+            <div class="button">
+              <button>Download CV</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills That Shows The Interest</div>
+            <p>I have my skills in HTML-CSS, languages like Python, JAVA, C and C++. In addition to this, I have a good experience in Tableau and Power BI and their working that helps me in performing tasks related to Data Analysis and Data Visualization.</p>
+            <div class="experience">
+              <div class="num"> </div>
+              <div class="exp">
+               <br />
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML & CSS</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">C & C++</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavaScript</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Python</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Tableau</div>
+              <div class="per">85%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Power BI</div>
+              <div class="per">70%</div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>Internships & Experience</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-graph"></i>
+            </div>
+            <div class="topic">Web & App Devlopment</div>
+            <p>Through my internship at Skyscanner, I've gained valuable experience and in-depth knowledge in the dynamic world of travel and technology. It's been an incredible journey that has sharpened my skills and deepened my understanding of the industry, making me an even more effective and versatile professional.</p>
+            <img src="images/skyscanner-scaled_prev_ui.png" alt="Description of your image" width="300" height="200">
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-graph"></i>
+            </div>
+            <div class="topic">Data Analysis</div>
+            <p>During my internships with Accenture and Cognizant, I've immersed myself in the world of global consulting and technology solutions. These experiences have not only honed my skills but also deepened my understanding of cutting-edge industry practices. I'm now equipped to bring valuable expertise and innovation to the professional landscape.</p>
+            <img src="images/accenture_prev_ui.png" alt="Description of your image" width="300" height="200">
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-graph"></i>
+            </div>
+            <div class="topic">Software Engineering</div>
+            <p>Through my internship at Walmart Global Tech in software engineering, I've gained invaluable experience and deep insights into the world of technology and innovation. These immersive experiences have honed my skills, equipped me with in-depth knowledge, and prepared me to contribute effectively to the ever-evolving tech landscape.</p>
+            <img src="images/maxresdefault (1)_prev_ui.png" alt="Description of your image" width="300" height="150">
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fab fa-graph"></i>
+            </div>
+            <div class="topic">Presentation Skills</div>
+            <p>My internship with Cognizant provided a valuable platform to refine and master my presentation skills. Through immersive experiences and guidance, I've developed a deep understanding of effective communication and the art of delivering impactful presentations. I'm now well-prepared to engage and inspire audiences in various professional settings.</p>
+            <img src="images/Cognizant-Logo_prev_ui.png" alt="Description of your image" width="300" height="200">
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-graph"></i>
+            </div>
+            <div class="topic">Solutions Architecture</div>
+            <p>My internship with Amazon Web Services (AWS) has been a transformative journey, equipping me with invaluable experience and profound insights into the world of software architecture. These experiences have honed my skills and deepened my understanding of cutting-edge technologies, positioning me to be a proficient software architect.                                         </p>
+            <img src="images/download_prev_ui.png" alt="Description of your image" width="300" height="180">
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-graph"></i>
+            </div>
+            <div class="topic">Artificial Intelligence Course</div>
+            <p>My internship at Infosys through Infosys Springboard allowed me to immerse myself in the world of Artificial Intelligence, gaining valuable experience and deep insights into this transformative field. This experience has honed my skills and deepened my understanding of AI, equipping me to contribute meaningfully to the advancement of AI solutions and innovations.</p>
+            <img src="images/images_prev_ui.png" alt="Description of your image" width="300" height="200">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">Have Any Project?</div>
+          <p>Feel free to connect with me on my LinkedIn, Facebook, or Instagram profiles for professional or casual discussions. You can also reach out via email at my Gmail ID for more direct communication. I look forward to connecting and engaging with you!</p>
+          <div class="button">
+            <button>Let's Chat</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>Quarknomer - A Journey By <a href="#">Swayam Kumar Das</a> | &#169; 2023 All Rights Reserved</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
